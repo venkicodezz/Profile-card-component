@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Kumbh+Sans&family=Poppins&family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.wrapper {
+    max-width: 420px;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.content img {
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.content h3 {
+    margin-top: 20px;
+}
+
+.content h2 span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 700;
+}
+
+.content .country {
+
+margin-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-block: 20px;
+}
+
+.footer p {
+    font-weight: 700;
+}
